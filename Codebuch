@@ -1,6 +1,7 @@
-# Datensatz Lebensmittelkonzerne #
+# Datensatz Lebensmittelkonzerne Pretest #
 Codebuch Stand 2020-07-31   
 erstellt von Julika Olpp, Cameron Bieri, Lorena Boss und Eva Thiel
+Datensatz durch Anzahl der Unternehmen für Pretest eingeschränkt 
 
 ## Inhalt
 - Edges.csv (Edgelist)
@@ -70,7 +71,7 @@ Geschlecht
 Als Jahreszahl
 
 **power**    
-definiert als Macht des Akteurs 
+definiert als Macht des Akteurs im Unternehemn
 (5= CEO, 4= president, executive, 3=senior Vice president, 2= vice president, group vice president, 1=Mitglied) 
   
 **company**    
