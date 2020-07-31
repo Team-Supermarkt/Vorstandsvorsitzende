@@ -1,0 +1,110 @@
+# Datensatz Lebensmittelkonzerne #
+Codebuch Stand 2020-07-31   
+erstellt von Julika Olpp, Cameron Bieri, Lorena Boss und Eva Thiel
+
+## Inhalt
+- Edges.csv (Edgelist)
+- Nodes.csv (Nodelist)
+- Codebuch.rm (Codierung der Datensätze)
+
+## Ursprung und Datenerhebung
+Die Daten stammen von folgenden Websites: 
+https://www.nestle.com/aboutus/management/executiveboard
+
+Das Netzwerk ist ein *ungerichtetess two-mode Akteursnetzwerk*.  
+  
+# EDGE-Attribute
+
+**id**  
+(eindeutige Codierung des Knoten)   
+Nachname der Person und Abkürzung bei Organisationen
+
+**weight**  
+Beziehungsstärke  
+1= (schwach) Mitgliedschaft, 
+2=Dozent, 
+3=Vorstand, 
+4=(stark)Präsident/Chef 
+
+**relationship**
+Beziehungsart zwischen den Akteuren  
+1= Ehrenamt, 
+2= Partei, 
+3=Verband,
+4=Unternehmen, 
+5=Schule, 
+6=Initiative, 
+7 Holding,
+8= Organisation, 
+9=Netzwerk, 
+10= Allianz 
+11= Committee
+
+**time*  
+Dauer der Beziehung
+
+1= seit 0-5 Jahre,
+2= 6-10 Jahre, 
+3= 10-15 Jahre, 
+4=  Jahre ,
+5= ab 16 Jahre 
+
+
+
+# NODE-Attribute  
+  
+**id**  
+Identische ID wie aus der edgelist zur Identifikation der Knoten.
+
+**name**
+voller Name des Knoten
+
+**sex**    
+Geschlecht 
+1 = weiblich  
+2 = männlich  
+3 = divers
+ 
+
+**age**   
+Als Jahreszahl
+
+**power**    
+definiert als Macht des Akteurs 
+(5= CEO, 4= president, executive, 3=senior Vice president, 2= vice president, group vice president, 1=Mitglied) 
+  
+**company**    
+Zu welchem Unternehmen gehören die Akteure  
+1 = Nestle
+2 = ADM
+  
+**type**    
+Da es ein two-mode Netzwerk ist, unterscheiden wir hier zwischen   
+1 = Organisation   
+2 = Person   
+
+**education**  
+Studium nach Studienabschluss 
+1=Wirtschaftswissenschaften, 
+2=Naturwissenschaften, 
+3=Ingenieurswissenschaften,
+4=Geisteswissenschaften, 
+5=Sozialwissenschaften
+6=Rechtswissenschaften 
+
+**nationality*
+Nationalität nach Pass 
+1= Deutschland, 
+2= Frankreich, 
+3= Italien,
+4= Amerika, 
+5= Indien, 
+6= Schweiz, 
+7= Kanada,
+8= Argentinien
+
+**status**
+Stuatus im Unternehmen 
+5= CEO, 4= president, executive, 3=senior Vice president, 2= vice president, group vice president, 1=Mitglied)
+
+##
