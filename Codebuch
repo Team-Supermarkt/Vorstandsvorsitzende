@@ -11,6 +11,8 @@ Datensatz durch Anzahl der Unternehmen für Pretest eingeschränkt
 ## Ursprung und Datenerhebung
 Die Daten stammen von folgenden Websites: 
 https://www.nestle.com/aboutus/management/executiveboard
+https://www.adm.com/our-company/senior-leadership 
+https://www.gevestor.de/details/das-sind-die-10-groessten-lebensmittelhersteller-der-welt-730873.html 
 
 Das Netzwerk ist ein *ungerichtetess two-mode Akteursnetzwerk*.  
   
@@ -36,10 +38,10 @@ Beziehungsart zwischen den Akteuren
 5=Schule, 
 6=Initiative, 
 7 Holding,
-8= Organisation, 
+8=Organisation, 
 9=Netzwerk, 
-10= Allianz 
-11= Committee
+10=Allianz, 
+11=Committee
 
 **time*  
 Dauer der Beziehung
@@ -103,9 +105,5 @@ Nationalität nach Pass
 6= Schweiz, 
 7= Kanada,
 8= Argentinien
-
-**status**
-Stuatus im Unternehmen 
-5= CEO, 4= president, executive, 3=senior Vice president, 2= vice president, group vice president, 1=Mitglied)
 
 ##
