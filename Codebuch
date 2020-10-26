@@ -49,10 +49,7 @@ Dauer der Beziehung
 1= seit 0-5 Jahre,
 2= 6-10 Jahre, 
 3= 10-15 Jahre, 
-4=  Jahre ,
-5= ab 16 Jahre 
-
-
+4= ab 16 Jahre 
 
 # NODE-Attribute  
   
@@ -66,8 +63,7 @@ voller Name des Knoten
 Geschlecht 
 1 = weiblich  
 2 = männlich  
-3 = divers
- 
+3 = divers 
 
 **age**   
 Als Jahreszahl
@@ -78,8 +74,12 @@ definiert als Macht des Akteurs im Unternehemn
   
 **company**    
 Zu welchem Unternehmen gehören die Akteure  
-1 = Nestle
-2 = ADM
+1 = Nestle,
+2 = ADM,
+4 = Unilever,
+5 = KraftHeinz,
+6 = Danone,  
+7 = Modelez
   
 **type**    
 Da es ein two-mode Netzwerk ist, unterscheiden wir hier zwischen   
@@ -104,6 +104,18 @@ Nationalität nach Pass
 5= Indien, 
 6= Schweiz, 
 7= Kanada,
-8= Argentinien
+8= Argentinien,
+9= Großbritannien, 
+10= Portugal, 
+11= Puerto Rico, 
+12= China, 
+13= Niederlande, 
+14= Brasilien, 
+15= Neuseeland, 
+16= Azerbaijan, 
+17= Türkei, 
+18= Belgien, 
+19= Afrika, 
+20= Libanon
 
 ##
