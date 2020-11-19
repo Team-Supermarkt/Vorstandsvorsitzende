@@ -1,20 +1,10 @@
-# Datensatz Lebensmittelkonzerne Pretest #
-Codebuch Stand 2020-07-31   
+# Datensatz Lebensmittelkonzerne #
+Codebuch Stand 2020-11-20   
 erstellt von Julika Olpp, Cameron Bieri, Lorena Boss und Eva Thiel
-Datensatz durch Anzahl der Unternehmen für Pretest eingeschränkt 
+
 
 ## Inhalt
-- Edges.csv (Edgelist)
-- Nodes.csv (Nodelist)
 - Codebuch.rm (Codierung der Datensätze)
-
-## Ursprung und Datenerhebung
-Die Daten stammen von folgenden Websites: 
-https://www.nestle.com/aboutus/management/executiveboard
-https://www.adm.com/our-company/senior-leadership 
-https://www.gevestor.de/details/das-sind-die-10-groessten-lebensmittelhersteller-der-welt-730873.html 
-
-Das Netzwerk ist ein *ungerichtetess two-mode Akteursnetzwerk*.  
   
 # EDGE-Attribute
 
